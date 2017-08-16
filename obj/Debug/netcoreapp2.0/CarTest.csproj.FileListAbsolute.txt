@@ -1,0 +1,10 @@
+/Users/stefanjohann/Code/CarTest/bin/Debug/netcoreapp2.0/CarTest.deps.json
+/Users/stefanjohann/Code/CarTest/bin/Debug/netcoreapp2.0/CarTest.runtimeconfig.json
+/Users/stefanjohann/Code/CarTest/bin/Debug/netcoreapp2.0/CarTest.runtimeconfig.dev.json
+/Users/stefanjohann/Code/CarTest/bin/Debug/netcoreapp2.0/CarTest.dll
+/Users/stefanjohann/Code/CarTest/bin/Debug/netcoreapp2.0/CarTest.pdb
+/Users/stefanjohann/Code/CarTest/obj/Debug/netcoreapp2.0/CarTest.csproj.CoreCompileInputs.cache
+/Users/stefanjohann/Code/CarTest/obj/Debug/netcoreapp2.0/CarTest.AssemblyInfoInputs.cache
+/Users/stefanjohann/Code/CarTest/obj/Debug/netcoreapp2.0/CarTest.AssemblyInfo.cs
+/Users/stefanjohann/Code/CarTest/obj/Debug/netcoreapp2.0/CarTest.dll
+/Users/stefanjohann/Code/CarTest/obj/Debug/netcoreapp2.0/CarTest.pdb

@@ -21,7 +21,7 @@ namespace CarTest.Controllers
         public IEnumerable<Car> Get(string plate)
         {
             var tmpPlate = plate.ToUpper().Trim().Replace(" ", "").Replace("-", "");
-            return _context.Cars.Where(x => x.Plate == tmpPlate).Include(x => x.User);
+            return _context.Cars.Where(x => x.Plate == tmpPlate).Include(x => x.User); 
         }
 
         // POST

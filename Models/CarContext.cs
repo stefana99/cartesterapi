@@ -10,5 +10,7 @@ namespace CarTest.Models
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<BasicCar> BasicCars {get; set;}
+        public DbSet<BasicUser> BasicUser {get ; set;}
     }
 }

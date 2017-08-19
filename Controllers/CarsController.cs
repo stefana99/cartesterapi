@@ -24,6 +24,15 @@ namespace CarTest.Controllers
             return _context.Cars.Where(x => x.Plate == tmpPlate).Include(x => x.User); 
         }
 
+        //GET
+        [Route("api/[controller]")]
+        [HttpGet]
+        public IEnumerable<BasicCar> GetOldCars(string plate)
+        {
+            var tmpPlate = plate.ToUpper().Trim().Replace(" ", "").Replace("-", "");
+            return _context.BasicCars.Where(x => x.Plate == tmpPlate).Include(x => x.User); 
+        }
+
         // POST
         [Route("api/[controller]")]
         [HttpPost]

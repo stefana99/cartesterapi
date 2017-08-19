@@ -25,7 +25,7 @@ namespace CarTest.Controllers
         }
 
         //GET
-        [Route("api/[controller]")]
+        [Route("api/[controller]/getoldcars")]
         [HttpGet]
         public IEnumerable<BasicCar> GetOldCars(string plate)
         {
